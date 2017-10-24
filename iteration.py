@@ -1,13 +1,11 @@
 # Make a local change
 # Make another local change
 # Make a change from home
-<<<<<<< HEAD
-# This is change [B] at school
-=======
 # This is change [A] from home
->>>>>>> e66eae380f57cd68e22b1cede44ff2f7e9e6590f
+
 
 # iteration pattern
+# doing the same thing once for each member of a list
 
 # [1, 5, 7 ,8 , 4, 3]
 
@@ -19,6 +17,13 @@ def iterate(list):
 	# for each loop
 	for item in list:
 		print item
+
+def add_one(list):
+	# standard for loop with range
+	for i in range(0, len(list)):
+		list[i] += 1
+
+		return list
 
 def print_scores(names, scores):
 	for i in range(0, len(names)):
