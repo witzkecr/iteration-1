@@ -72,7 +72,7 @@ def average_minus(numbers):
 		total += n
 		true_total = total / (len(numbers))
 
-		true_total - 2 = true_minus_total
+	true_total - 2 = true_minus_total
 
 	return true_minus_total
 # homework ->

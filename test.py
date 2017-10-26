@@ -22,6 +22,6 @@ print max(scores)
 
 print average(scores)
 
-print average_minus(scores)
+# average_minus(scores)
 # sum = sum(numbers)
 # print sum
