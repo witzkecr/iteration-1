@@ -14,7 +14,7 @@ from iteration import *
 
 #congratulations(names, scores)
 
-scores = [0, 3, 4, 2, 1]
+scores = [2, 4, 9, 3, 2]
 
 print sum(scores)
 
@@ -22,6 +22,7 @@ print max(scores)
 
 print average(scores)
 
-# average_minus(scores)
+print average_minus(scores)
+
 # sum = sum(numbers)
 # print sum

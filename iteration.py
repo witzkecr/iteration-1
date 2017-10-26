@@ -67,14 +67,20 @@ def average(numbers):
 	return true_total
 
 def average_minus(numbers):
+	current_min = numbers[0]
+
 	total = 0
 	for n in numbers:
-		total += n
-		true_total = total / (len(numbers))
+		if n < current_min:
+			current_min = n
+		current_min_2 = numbers[0]
+		if n < current_min:
+			current_min_2 = n
+		total += n 
 
-	true_total - 2 = true_minus_total
+	true_total = (total - current_min - current_min_2) / (len(numbers)-2)
 
-	return true_minus_total
+	return true_total
 # homework ->
  # a) write a function that finds the average of the scores
  # b) write a second function that also finds the average
